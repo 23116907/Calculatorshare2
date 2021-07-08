@@ -52,7 +52,7 @@ buttn1 = Button(root, text="1", padx=40, pady=20, command=lambda:number_input(1)
 buttn0 = Button(root, text="0", padx=40, pady=20, command=lambda:number_input(0)).grid(row=4, column=0)
 
 buttn_add = Button(root, text="+", padx=40, pady=20, command=sum_of_values).grid(row=4, column=1, columnspan=2)
-buttn_clear = Button(root, text="cls", padx=40, pady=20, command=clear_values).grid(row=5, column=0)
+buttn_clear = Button(root, text="cls", padx=40, pady=30, command=clear_values).grid(row=5, column=0)
 buttn_equals = Button(root, text="=", padx=40, pady=20, command=equals).grid(row=5, column=1, columnspan=2)
 
 root.mainloop()
