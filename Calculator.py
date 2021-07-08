@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 
 #Text input area
-e = Entry(root, width = 35, borderwidth = 5)
+e = Entry(root, width = 30, borderwidth = 5)
 e.grid(row = 0, column=0, columnspan=3, padx=30)
 
 list_of_numbers= []
